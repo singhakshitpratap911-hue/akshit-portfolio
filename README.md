@@ -60,7 +60,7 @@ Selected as a campus ambassador to support student skill development, educationa
 ### 1. Clone the repository
 
 ```bash
-git clone <your-github-repository-url>
+git clone https://github.com/singhakshitpratap911-hue/akshit-portfolio
 cd cinematic-portfolio-main
 ```
 
