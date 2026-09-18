@@ -1,32 +1,92 @@
-# React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+Akshit Pratap Singh — Cinematic Portfolio
+A cinematic, interactive personal portfolio built with React, TypeScript, and Vite. The portfolio presents my profile, technical skills, projects, experience, and contact information through a motion-focused visual experience.
+About
+Akshit Pratap Singh
+B.Tech in Computer Science & Engineering (AI & ML)
+I am a Computer Science and Engineering undergraduate interested in Artificial Intelligence, Machine Learning, cybersecurity, network traffic analysis, and practical software development.
+Highlights
+Cinematic portfolio layout
+Responsive design for desktop and mobile screens
+Smooth scrolling powered by Lenis
+Motion and transitions powered by Framer Motion
+React + TypeScript architecture
+Vite-based development and production build
+Sections for profile, skills, projects, experience, and contact
+Tech Stack
+Frontend: React, TypeScript
+Build Tool: Vite
+Styling: Tailwind CSS
+Animation: Framer Motion
+Smooth Scrolling: Lenis
+Code Quality: Oxlint
+Featured Skills
+C and Python
+Artificial Intelligence and Machine Learning
+Network Security and Traffic Analysis
+Wireshark, Nmap, Hping3, and Hydra
+Linux (Kali) and Windows
+Rapid Prototyping, Packet Inspection, Threat Simulation, Technical Pitching, and Leadership
+Projects
+Network Traffic Analysis Framework for Cyber Attack Detection
+A summer training project associated with United Group of Institutions focused on building a virtualized security testing environment using Kali Linux and Windows, analyzing network telemetry with Wireshark, and studying simulated network threat patterns.
+College Smart Issue Reporting System
+A U-HACK 4.0 24-hour innovation hackathon project developed with the CODEX CREATORS team. The project focused on an automated campus issue reporting workflow, system architecture, and technical presentation.
+Experience
+Internshala Student Partner (ISP 59)
+Internshala — August 2026
+Selected as a campus ambassador to support student skill development, educational initiatives, technical training campaigns, and internship awareness across campus communities.
+Getting Started
+1. Clone the repository
+git clone <your-github-repository-url>
+cd cinematic-portfolio-main
+2. Install dependencies
+npm install
+3. Start the development server
+npm run dev
+Open the local URL shown in the terminal, usually:
+http://localhost:5173
+Available Commands
+Command
+Description
+npm run dev
+Start the development server
+npm run build
+Type-check and create a production build
+npm run preview
+Preview the production build locally
+npm run lint
+Run Oxlint
+Before deployment, run:
+npm run build
+Deployment on Vercel
+Push the project to GitHub.
+Open Vercel.
+Import the GitHub repository.
+Use the following settings:
+Setting
+Value
+Framework Preset
+Vite
+Install Command
+npm install
+Build Command
+npm run build
+Output Directory
+dist
+Click Deploy.
+When the GitHub repository is connected to Vercel, every new push can trigger an automatic deployment.
+Updating the Portfolio
+Edit the required content or asset in the source code.
+Test the changes locally with npm run dev.
+Verify the production build with npm run build.
+Commit and push the changes:
+git add .
+git commit -m "Update portfolio"
+git push
+Vercel will deploy the new version automatically when the repository is connected.
+Contact
+Email: Singhakshitpratap911@gmail.com
+LinkedIn: linkedin.com/in/akshitpratapsingh
+GitHub: github.com/singhakshitpratap911-hue
+License
+This portfolio is a personal project. Contact the owner before reusing its content, media, or design assets.
